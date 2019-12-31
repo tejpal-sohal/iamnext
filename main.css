@@ -78,12 +78,21 @@ body {
 
   @media only screen and (max-width: 600px) {
       h1 {
-       
+        font-size: 17em;
       }
 
-      h2,
-      h3 {
+      h1::after{
+   
+        top: -119px;
 
+    
+      }
+    
+      
+      h2,
+      h3,
+      .fab  {
+        font-size: 5em;
 
     
       }
